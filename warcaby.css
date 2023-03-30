@@ -1,0 +1,68 @@
+*{font-family: 'Times New Roman', Times, serif;}
+
+body{
+    background-image:url("rozowetlo");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* odleglosc miedzu oobrazkiem a tesktem */
+section{
+    display: flex;
+    gap: 10px;
+}
+
+
+.text{
+    font-size: 3rem;
+    color: pink;
+    background-color: black;
+}
+
+.text1{
+    font-size: 2rem;
+}
+
+.img{
+    float: left;
+    width: 30rem;
+    height: auto;
+}
+
+.img1{
+    float: right;
+    width: 28rem;
+    height: auto;
+}
+
+.footer { /* Stopka */
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: blueviolet;
+    clear: both;
+}
+
+@media (max-width:700px){
+    .img{
+        text-align: center;
+        height: 100%;
+        width: 95%;
+        float: none;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .img1{
+        text-align: center;
+        height: 100%;
+        width: 95%;
+        float: none;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+
+

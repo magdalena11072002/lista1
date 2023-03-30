@@ -1,0 +1,89 @@
+*{font-family: 'Times New Roman', Times, serif;margin: 0;}
+
+body{
+    background-image: url("tlo");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section{
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+}
+
+.text1{         
+    background-color:blueviolet;
+    font-size: 2.1rem;
+}
+.text{
+    font-size: 2.4rem;
+}  
+
+.text2{
+    font-size: 1.9rem;
+}
+
+
+.img{
+    float: left;
+    width:25%;
+    height:30%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.img1{
+    float: right;
+    width: 15%;
+    height: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer { /* Stopka */
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: blueviolet;
+    clear: both;
+}
+
+.MenuWrap {
+	background-color:black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+.ListItem {
+	margin-right: 2vw;
+    color:violet;
+	text-decoration:double;
+}
+
+@media (max-width:700px){
+    .img{
+        text-align: center;
+        height: 100%;
+        width: 95%;
+        float: none;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .img1{
+        text-align: center;
+        height: 100%;
+        width: 95%;
+        float: none;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+    
+

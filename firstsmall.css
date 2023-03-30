@@ -1,0 +1,17 @@
+@media screen and (max-width=680px){
+    body{
+        background-image: url("tlo");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .img, .img1, .text, .text1, .text2{
+        flex-wrap: wrap;
+    }
+
+    .img1{
+        display: none;
+    }
+
+    
+}
